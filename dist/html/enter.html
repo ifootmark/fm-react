@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta name="description" content="">
+	<title>Enter</title>
+	<link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body>
+	<div class="ipage">
+		<div class="iheader">
+			<div class="my-head">
+				<div class="my-head-l">
+					<h1 class="my-logo"><a href="/" target="_blank">ifootmark</a></h1>					
+				</div>
+				<div  class="my-head-r">
+					<div class="nav-menu"></div>
+				</div>		
+			</div>
+		</div>
+		<div class="icontenter" id="icontenter">
+			<div class="my-slogan">
+		        <h1 class="my-slogan-name"><span class="lf"></span><span class="rt"></span></h1>
+		        <h2 class="my-slogan-desc">Code is the only language of programmers.</h2>
+		    </div>
+		    <ul class="list-ul">
+		    </ul>
+		    <div class="clear"></div>
+		</div>
+		<div class="ifooter">
+			<p>Copyright © 2016. All Rights Reserved.</p>
+		</div>
+	</div>
+	
+	<script type="text/html" id="menutpl">
+		<a href="/">Home</a>
+		{{each data as value index}}
+			<a href="{{value.url}}">{{value.title}}</a>
+		{{/each}}
+	</script>
+	<script type="text/html" id="listtpl">
+		{{each data as value index}}
+			<li>
+				<a href="{{value.url}}">
+			        <div class="li-item">
+			          <span class="icon" style="background: url({{value.icon}}) no-repeat 0 0;background-size: contain;"></span>
+			          <h3 class="title">{{value.title}}</h3>
+			          <p class="desc">{{value.desc}}</p>
+			      	</div>
+		      	</a>
+	    	</li>
+		{{/each}}
+	</script>
+	<script src="/assets/js/vendor.js"></script>
+    <script src="/assets/js/enter.js"></script>
+</body>
+</html>

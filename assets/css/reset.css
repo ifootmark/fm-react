@@ -1,0 +1,67 @@
+
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select {
+	margin: 0;
+	padding: 0;
+	font-family: '微软雅黑'
+}
+html {
+	background: #f6f6f6;
+	color: #333;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body {
+	min-height: 100%; 	
+  	font-size: 14px;
+  	color: #333;
+  	background-color: #fff;
+}
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+	}
+img,fieldset,input {
+	border: none;
+}
+input:focus,select:focus{
+	outline: none;
+}
+input[type=text]{
+	border: 1px solid #ccc;
+	width: 200px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 5px;
+	text-indent: 10px;
+}
+input[type=button], input[type=submit] { cursor: pointer; }
+/*input { outline: 0 none; border: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; }*/
+input:focus::-webkit-input-placeholder { color: transparent; }
+input::-moz-focus-inner, input::-moz-focus-outer { border: 0 none; padding: 0; margin: 0; }
+
+select{
+	width: 200px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 5px;
+	text-indent: 10px;
+}
+ul,ol {
+	list-style: none
+}
+em,address,i,var {
+	font-style: normal
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color:#666;
+}
+a:hover{
+	color: #38B8F2;
+}
+table {
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+i,em,address {
+	font-style: normal;
+}

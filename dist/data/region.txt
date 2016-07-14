@@ -1,0 +1,30 @@
+{
+    webResult: {
+        data: [
+            {
+                name: "中国",
+                code: "CN"
+            },
+            {
+                name: "美国",
+                code: "US"
+            },
+            {
+                name: "日本",
+                code: "JP"
+            },
+            {
+                name: "德国",
+                code: "DE"
+            }
+        ],
+        totalCount: null,
+        stateCode: {
+            code: 0,
+            desc: "成功"
+        },
+        statusText: "成功",
+        success: true,
+        failed: false
+    }
+}

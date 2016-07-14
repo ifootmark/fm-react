@@ -1,0 +1,135 @@
+﻿{
+    data: [
+        {
+            createTime: 1454035326000,
+            createPerson: "admin",
+            updateTime: 1453978474000,
+            updatePerson: "admin",
+            deptId: 10000,
+            deptName: "基础部门",
+            deptDesc: "基础部门",
+            parentId: 0,
+            isDelete: null,
+            parent: null,
+            children: [
+                {
+                    createTime: 1453978474000,
+                    createPerson: "admin",
+                    updateTime: 1453978474000,
+                    updatePerson: "admin",
+                    deptId: 10001,
+                    deptName: "研发部",
+                    deptDesc: "研发部",
+                    parentId: 10000,
+                    isDelete: null,
+                    parent: {
+                        createTime: 1454035326000,
+                        createPerson: "admin",
+                        updateTime: 1453978474000,
+                        updatePerson: "admin",
+                        deptId: 10000,
+                        deptName: "基础部门",
+                        deptDesc: "基础部门",
+                        parentId: 0,
+                        isDelete: null,
+                        parent: null,
+                        children: null
+                    },
+                    children: [
+                        
+                    ]
+                },
+                {
+                    createTime: 1453978474000,
+                    createPerson: "admin",
+                    updateTime: 1453978474000,
+                    updatePerson: "admin",
+                    deptId: 10003,
+                    deptName: "管理员",
+                    deptDesc: "管理员",
+                    parentId: 10000,
+                    isDelete: null,
+                    parent: {
+                        createTime: 1454035326000,
+                        createPerson: "admin",
+                        updateTime: 1453978474000,
+                        updatePerson: "admin",
+                        deptId: 10000,
+                        deptName: "基础部门",
+                        deptDesc: "基础部门",
+                        parentId: 0,
+                        isDelete: null,
+                        parent: null,
+                        children: null
+                    },
+                    children: [
+                        
+                    ]
+                },
+                {
+                    createTime: 1453978474000,
+                    createPerson: "admin",
+                    updateTime: 1453978474000,
+                    updatePerson: "admin",
+                    deptId: 10005,
+                    deptName: "线上第三方运营部",
+                    deptDesc: "线上第三方运营部",
+                    parentId: 10000,
+                    isDelete: null,
+                    parent: {
+                        createTime: 1454035326000,
+                        createPerson: "admin",
+                        updateTime: 1453978474000,
+                        updatePerson: "admin",
+                        deptId: 10000,
+                        deptName: "基础部门",
+                        deptDesc: "基础部门",
+                        parentId: 0,
+                        isDelete: null,
+                        parent: null,
+                        children: null
+                    },
+                    children: [
+                        
+                    ]
+                },
+                {
+                    createTime: 1453978474000,
+                    createPerson: "admin",
+                    updateTime: 1453978474000,
+                    updatePerson: "admin",
+                    deptId: 10026,
+                    deptName: "运营部",
+                    deptDesc: "运营部",
+                    parentId: 10000,
+                    isDelete: null,
+                    parent: {
+                        createTime: 1454035326000,
+                        createPerson: "admin",
+                        updateTime: 1453978474000,
+                        updatePerson: "admin",
+                        deptId: 10000,
+                        deptName: "基础部门",
+                        deptDesc: "基础部门",
+                        parentId: 0,
+                        isDelete: null,
+                        parent: null,
+                        children: null
+                    },
+                    children: [
+                        
+                    ]
+                }
+            ]
+        }
+    ],
+    stateCode: {
+        code: 0,
+        desc: "成功"
+    },
+    statusText: "成功",
+    totalCount: null,
+    pageable: null,
+    failed: false,
+    success: true
+}
