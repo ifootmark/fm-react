@@ -1,10 +1,10 @@
 /*!
- * fm-build-quickstart - fm-build-quickstart
+ * fm-react - fm-react
  * @author ifootmark@163.com
  * @version v1.0.0
- * @link https://ifootmark.github.io/fm-build-quickstart/
+ * @link https://ifootmark.github.io/fm-react/
  * @license MIT
- * @time 2016-6-22 23:41:22
+ * @time 2016-7-18 20:34:16
  */
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// install a JSONP callback for chunk loading

@@ -2720,7 +2720,7 @@
                 }
             ],
             menuId: 20015,
-            menuName: "汽配超人后台",
+            menuName: "汽配后台",
             menuUrl: null,
             menuType: 1,
             menuLevel: 1,
