@@ -1,0 +1,40 @@
+{
+    data: [
+        {
+            url:"category.html",
+            title:"Category",
+            desc:"category management",
+            icon:"/assets/img/pz.png"
+        },
+        {
+            url:"brand.html",
+            title:"Brand",
+            desc:"brand management",
+            icon:"/assets/img/jk.png"
+        },
+        {
+            url:"menu.html",
+            title:"Menu",
+            desc:"menu management",
+            icon:"/assets/img/kf.png"
+        },
+        {
+            url:"dept.html",
+            title:"Dept",
+            desc:"department management",
+            icon:"/assets/img/pz.png"
+        },
+        {
+            url:"form.html",
+            title:"Form",
+            desc:"form management",
+            icon:"/assets/img/jk.png"
+        },
+        {
+            url:"timer.html",
+            title:"Timer",
+            desc:"timer management",
+            icon:"/assets/img/kf.png"
+        }
+    ]
+}

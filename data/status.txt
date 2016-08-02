@@ -1,0 +1,22 @@
+{
+    webResult: {
+        data: [
+            {
+                name: "启用",
+                code: 1
+            },
+            {
+                name: "禁用",
+                code: 2
+            }
+        ],
+        totalCount: null,
+        stateCode: {
+            code: 0,
+            desc: "成功"
+        },
+        statusText: "成功",
+        success: true,
+        failed: false
+    }
+}
