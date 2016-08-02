@@ -14,7 +14,7 @@ webpackJsonp([3],{
 	/* WEBPACK VAR INJECTION */(function($, lib, template) {'use strict';
 	$(function(){
 	    document.getElementById("icontenter").style.minHeight = document.body.clientHeight-70+"px"; 
-	    lib.getJsonData("get", '/data/config.txt', {}, function(data) {
+	    lib.getJsonData("get", '../data/config.txt', {}, function(data) {
 	        if (data.data) {
 	            var tpl = template('listtpl', data);
 	            var tpl_menu = template('menutpl', data);

@@ -227,14 +227,14 @@ body {font-family: "Microsoft YaHei" Arial; color: #333333; background-color: #f
 
 
 /***********custom page start**********/
-.ipage{ width: 100%; background: url('../img/pageBack.jpg***') repeat;}
+.ipage{ width: 100%; background: url('../img/back.jpg') repeat;}
 /* iheader */
 .iheader{ height: 55px; width: 100%;position: absolute; top: 0; left: 0; border: solid 1px #ddd; background: rgba(255, 255, 255, 0.8);}
 .iheader .my-head{width: 1200px; height: 55px;margin: 0 auto;}
 .iheader .my-head-l{float: left;}
 .iheader .my-head-r{float: right;}
 .iheader .my-logo{ height: 55px; line-height: 55px;}
-.iheader .my-logo a{display: block; background: url('../img/logo.png') no-repeat;}
+.iheader .my-logo a{display: block; background: url() no-repeat;}
 .iheader .nav-menu a{height: 55px; line-height: 55px; margin-left: 30px; color: #444;font-family: 'Microsoft YaHei', sans-serif !important;}
 .iheader .nav-menu a:hover{color: #2BAFEA;}
 

@@ -111,10 +111,10 @@ webpackJsonp([0],[
 	                        React.createElement(component.ComInput, {title: "品牌", name: "brandName", labeled: true})
 	                    ), 
 	                    React.createElement("div", {className: "three wide column", id: "rp_aaa"}, 
-	                        React.createElement(component.ComDropdownCategory, {title: "类目", name: "categoryId", dataurl: "/data/category.txt", complete: this.complete, labeled: true, isAllEnable: false})
+	                        React.createElement(component.ComDropdownCategory, {title: "类目", name: "categoryId", dataurl: "../data/category.txt", complete: this.complete, labeled: true, isAllEnable: false})
 	                    ), 
 	                    React.createElement("div", {className: "three wide column"}, 
-	                        React.createElement(component.ComSelect, {title: "状态", name: "status", labeled: true, defaultText: "全部", dataurl: "/data/status.txt", valueField: "code", textField: "name"})
+	                        React.createElement(component.ComSelect, {title: "状态", name: "status", labeled: true, defaultText: "全部", dataurl: "../data/status.txt", valueField: "code", textField: "name"})
 	                    ), 
 	                    React.createElement("div", {className: "three wide column"}, 
 	                        React.createElement("div", {className: "ui primary button", id: "btn_search", onClick: this.search}, "查询"), 
@@ -144,7 +144,7 @@ webpackJsonp([0],[
 	                    React.createElement("div", {className: "ui divider"}), 
 
 	                    React.createElement(ComSearch, null), React.createElement("br", null), 
-	                    React.createElement(component.ComTable, {data: data, pkey: "brandId", dataurl: "/data/brand.txt", complete: formatData, ispage: true}), React.createElement("br", null), React.createElement("br", null), React.createElement("br", null)
+	                    React.createElement(component.ComTable, {data: data, pkey: "brandId", dataurl: "../data/brand.txt", complete: formatData, ispage: true}), React.createElement("br", null), React.createElement("br", null), React.createElement("br", null)
 	                )
 	            );
 	        }

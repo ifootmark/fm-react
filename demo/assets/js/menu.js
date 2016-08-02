@@ -90,7 +90,7 @@ webpackJsonp([5],[
 	                React.createElement("div", {className: "ui fluid container icontainer"}, 
 	                    React.createElement("h3", {className: "ui header"}, this.props.title), 
 	                    React.createElement("div", {className: "ui divider"}), React.createElement("br", null), 
-	                    React.createElement(component.ComTreeTable, {data: data, pkey: "menuId", dataurl: "/data/menu.txt", defaultparam: null, complete: formatData, ispage: false, istree: true}), React.createElement("br", null), React.createElement("br", null), React.createElement("br", null)
+	                    React.createElement(component.ComTreeTable, {data: data, pkey: "menuId", dataurl: "../data/menu.txt", defaultparam: null, complete: formatData, ispage: false, istree: true}), React.createElement("br", null), React.createElement("br", null), React.createElement("br", null)
 	                )
 	            );
 	        }

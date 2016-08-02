@@ -118,7 +118,7 @@ webpackJsonp([1],[
 	                    React.createElement("h3", {className: "ui header"}, this.props.title), 
 	                    React.createElement("div", {className: "ui divider"}), 
 	                    React.createElement(ComNav, null), React.createElement("br", null), 
-	                    React.createElement(component.ComTable, {data: data, pkey: "categoryId", dataurl: "/data/category.txt", defaultparam: {categoryId:2}, complete: formatData, ispage: false}), React.createElement("br", null), React.createElement("br", null), React.createElement("br", null)
+	                    React.createElement(component.ComTable, {data: data, pkey: "categoryId", dataurl: "../data/category.txt", defaultparam: {categoryId:2}, complete: formatData, ispage: false}), React.createElement("br", null), React.createElement("br", null), React.createElement("br", null)
 	                )
 	            );
 	        }

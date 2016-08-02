@@ -93,8 +93,8 @@ webpackJsonp([2],[
 	                    React.createElement("h3", {className: "ui header"}, this.props.title), 
 	                    React.createElement("div", {className: "ui divider"}), 
 
-	                    React.createElement(component.ComDropdownDepartment, {title: "部门", name: "deptId", dataurl: "/data/department.txt", labeled: true}), React.createElement("br", null), React.createElement("br", null), 
-	                    React.createElement(component.ComTreeTable, {data: data, pkey: "deptId", dataurl: "/data/department.txt", defaultparam: null, complete: formatData, ispage: false, istree: true}), React.createElement("br", null), React.createElement("br", null), React.createElement("br", null)
+	                    React.createElement(component.ComDropdownDepartment, {title: "部门", name: "deptId", dataurl: "../data/department.txt", labeled: true}), React.createElement("br", null), React.createElement("br", null), 
+	                    React.createElement(component.ComTreeTable, {data: data, pkey: "deptId", dataurl: "../data/department.txt", defaultparam: null, complete: formatData, ispage: false, istree: true}), React.createElement("br", null), React.createElement("br", null), React.createElement("br", null)
 	                )
 	            );
 	        }

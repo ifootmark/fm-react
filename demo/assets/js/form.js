@@ -79,10 +79,10 @@ webpackJsonp([4],[
 		                    ), 
 
 		                    React.createElement("div", {className: "inline field"}, 
-		                        React.createElement(component.ComSelect, {classname: "indent15", title: "归属地：", name: "attribution", dataurl: "/data/region.txt", valueField: "code", textField: "name"})
+		                        React.createElement(component.ComSelect, {classname: "indent15", title: "归属地：", name: "attribution", dataurl: "../data/region.txt", valueField: "code", textField: "name"})
 		                    ), 
 		                    React.createElement("div", {className: "inline field"}, 
-		                        React.createElement(component.ComDropdownCategory, {classname: "indent25", title: "类目：", name: "categoryIds", dataurl: "/data/category.txt", defaultText: "请选择", multiple: true})
+		                        React.createElement(component.ComDropdownCategory, {classname: "indent25", title: "类目：", name: "categoryIds", dataurl: "../data/category.txt", defaultText: "请选择", multiple: true})
 		                    ), 
 		                    React.createElement("div", {className: "pl80 pt20"}, 
 		                        React.createElement("div", {className: "ui blue submit button", onClick: this.handleSubmit}, "提交"), 
